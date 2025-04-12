@@ -1,0 +1,25 @@
+{
+  "name": "sodium-instance",
+  "version": "2.7.0",
+  "description": "Sodium is a site used for evading internet censorship",
+  "type": "module",
+  "engines": {
+    "npm": ">=9.8.1"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "z1g Project",
+  "license": "MIT",
+  "dependencies": {
+    "@mercuryworkshop/wisp-js": "^0.1.1",
+    "axios": "^1.7.5",
+    "express": "^4.19.2",
+    "ip": "^2.0.1",
+    "prettier": "^3.3.3",
+    "sodium-static": "file:sodium-static"
+  }
+}

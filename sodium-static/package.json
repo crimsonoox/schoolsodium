@@ -1,0 +1,13 @@
+{
+  "name": "sodium-static",
+  "main": "lib/index.js",
+  "version": "2.7.0",
+  "type": "module",
+  "files": [
+    "public",
+    "lib"
+  ],
+  "dependencies": {
+    "sodium-static": "file:"
+  }
+}
